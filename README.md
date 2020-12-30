@@ -6,7 +6,7 @@
 
 实现了商品的展示、商品分类查询、关键字搜索商品、商品详细信息展示、登录、注册、用户购物车、订单结算、用户订单、用户收藏列表以及错误处理功能。
 
-后端采取了MVC模式，根据前端需要的数据分模块设计了相应的接口、控制层、数据持久层。后端传送地址[store-server](https://github.com/hai-27/store-server) 。
+后端采取了MVC模式，根据前端需要的数据分模块设计了相应的接口、控制层、数据持久层。
 
 ## 技术栈
 
@@ -65,11 +65,7 @@
 
 ## 运行项目
 
-**注意：**
 
-- 后端接口地址已经修改为线上的地址，本地运行会直接分为我部署在服务器的后端。
-- 为了方便测试，数据库数据没有加密，注册时切记**不要使用自己的常用密码**。
-- 如果需要自己运行后端，请移步到[store-server](https://github.com/hai-27/store-server) clone后端项目，并修改前端的接口地址为您的服务器地址。
 
 ```
 1. Clone project
@@ -89,33 +85,3 @@ npm run serve
 
 npm run build
 ```
-## 页面截图
-
-**首页**
-
-![](https://images.gitee.com/uploads/images/2020/0317/154615_cffbacfe_6502229.png "home.png")
-
-**全部商品**
-
-![](https://images.gitee.com/uploads/images/2020/0317/154637_fa50ca7a_6502229.png "goods.png")
-
-**购物车**
-
-![](https://images.gitee.com/uploads/images/2020/0317/154737_f0417e36_6502229.gif "shoppingCart.gif")
-
-**我的收藏**
-
-![](https://images.gitee.com/uploads/images/2020/0317/154717_e2baa55c_6502229.png "collect.png")
-
-**我的订单**
-
-![](https://images.gitee.com/uploads/images/2020/0317/154756_5813ae89_6502229.png "order.png")
-
-**登录**
-
-![](https://images.gitee.com/uploads/images/2020/0317/154814_27bcc9f1_6502229.png "login.png")
-
-**注册**
-
-![](https://images.gitee.com/uploads/images/2020/0317/154827_2399157d_6502229.png "register.png")
-
